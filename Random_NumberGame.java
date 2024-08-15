@@ -1,4 +1,4 @@
-package codeshef;
+package codeSoft;
 
 import java.util.Random;
 import java.util.Scanner;
