@@ -20,7 +20,7 @@ public class Random_NumberGame {
 			int attempt = 1;
 			while (attempt < 4) {
 				System.out.println("\nThis is your " + attempt + " Round");
-				System.out.println("Enter the guess num");
+				System.out.println("Enter the guess number");
 				int gsn = sc.nextInt();
 				if (gsn == ranNum) {
 					guessCorrect = true;
@@ -43,7 +43,7 @@ public class Random_NumberGame {
 				System.out.println("The number was :" + ranNum);
 
 			} else {
-				System.out.println("||  Sorray ,you are out !   ||");
+				System.out.println("||  Sorry ,you are out !   ||");
 				System.out.println("The correct number was " + ranNum);
 			}
 
