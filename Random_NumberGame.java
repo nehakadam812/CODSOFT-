@@ -15,7 +15,7 @@ public class Random_NumberGame {
 	public static void game() {
 		do {
 			Random rand = new Random();
-			int ranNum = rand.nextInt(1, 100);
+			int ranNum = rand.nextInt(1, 101);
 			boolean guessCorrect = false;
 			int attempt = 1;
 			while (attempt < 4) {
